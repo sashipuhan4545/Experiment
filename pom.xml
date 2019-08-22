@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>Automation</groupId>
@@ -17,21 +16,25 @@
 					<forkMode>never</forkMode>
 					<properties>
 						<property>
-						 <name>suitethreadpoolsize</name>
-                          <value>3</value>
+							<name>parallel</name>
+							<value>methods</value>
+						</property>
+						<property>
+							<name>suitethreadpoolsize</name>
+							<value>3</value>
 						</property>
 					</properties>
 					<useFile>true</useFile>
 					<testFailureIgnore>true</testFailureIgnore>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						
+
 						<file>testng.xml</file>
-                         <file>testng_1.xml</file>
-                          <file>testng_2.xml</file>
-                         
-						
-						
+						<file>testng_1.xml</file>
+						<file>testng_2.xml</file>
+
+
+
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

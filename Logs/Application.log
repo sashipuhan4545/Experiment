@@ -19543,3 +19543,4 @@
 2019-08-21 18:10:39,940  INFO [main] - com.xp8.test.New_SanityTest.basicOperationwithoutdecimalpt 749 - Pass: Division of 2 numbers verified successfully.
 2019-08-21 18:12:34,092  INFO [main] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_007_CheckClockMenus 207 - ===================== XP8_DeviceSanity_007_CheckClockMenus ======================
 2019-08-21 18:12:40,548  INFO [main] - com.xp8.test.New_SanityTest.scrollToText 116 - Searched application is found sucessfully : 
+2019-08-22 11:37:13,669  INFO [main] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================

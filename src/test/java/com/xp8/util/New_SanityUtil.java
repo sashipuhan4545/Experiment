@@ -20,14 +20,12 @@ import java.util.NoSuchElementException;
 import java.util.Random;
 import java.util.UUID;
 
-import org.bridj.cpp.std.list;
 import org.json.simple.parser.ParseException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.sikuli.guide.Run;
 import org.testng.asserts.SoftAssert;
 
 import com.relevantcodes.extentreports.ExtentReports;

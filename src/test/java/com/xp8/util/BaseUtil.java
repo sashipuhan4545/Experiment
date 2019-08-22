@@ -694,12 +694,12 @@ public class BaseUtil extends CommonConfig
 		customWait(2000);
 	}
 
-	public void acceptGoogleSecurity() throws InterruptedException {
+/*	public void acceptGoogleSecurity() throws InterruptedException {
 		if(isElementExist(Locators_SonimCare.AcceptBtn)) {
 			minWait();
 			Locators_SonimCare.AcceptBtn.click();		   
 		}
-	}
+	}*/
 	
 	
 	public void enableFeature(WebElement enablebtn, WebElement disablebtn, WebElement switchtitle) throws InterruptedException {

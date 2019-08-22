@@ -2,7 +2,6 @@ package com.xp8.util;
 
 import java.util.List;
 
-import org.bridj.cpp.std.list;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -183,8 +182,8 @@ public class New_SanityLocators {
 	@AndroidFindBy(uiAutomator="new UiSelector().className(\"android.widget.TextView\").textContains(\"All Channels\")")
 	 public static AndroidElement FM_AllChannelsBtn;
 	
-	@AndroidFindBy(xpath="//android.widget.TableLayout/android.widget.TableRow[@index=1]/android.widget.TextView")
-	public static list<AndroidElement> FM_AllChannelsLst;
+	/*@AndroidFindBy(xpath="//android.widget.TableLayout/android.widget.TableRow[@index=1]/android.widget.TextView")
+	public static list<AndroidElement> FM_AllChannelsLst;*/
 	
 	@AndroidFindBy(xpath="//android.widget.LinearLayout[@instance=2]/android.widget.RelativeLayout[@index=2]/android.widget.TextView[@index=1]")
 	 public static AndroidElement FM_frequency_SelecterTxt;

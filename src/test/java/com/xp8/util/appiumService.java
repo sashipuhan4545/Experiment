@@ -2,7 +2,7 @@
  * 							Starts an appium server on ip address and port specified..
  * 
  * 
- */
+ 
 
 
 package com.xp8.util;
@@ -83,7 +83,7 @@ public class appiumService {
 	public void profileSelectionForQAAndNonQA() {
 
 
-		/*if(MainController.TEAM_BASED_LOGIN.contains("QA Team")) {
+		if(MainController.TEAM_BASED_LOGIN.contains("QA Team")) {
 
 			// AllQA.PRIMARYDEVMDN=AllQA.PRIMARYDEVMDN;
 			//AllQA.REFERENCEDEVMDN=AllQA.REFERENCEDEVMDN;
@@ -99,7 +99,7 @@ public class appiumService {
 
 
 			System.out.println(AllQA.PRIMARYDEVMDN +","+AllQA.REFERENCEDEVMDN +","+AllQA.NUMOFCALLS);	
-		}*/
+		}
 
 	}
 
@@ -215,3 +215,4 @@ public class appiumService {
 
 		}
 }
+*/

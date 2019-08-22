@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none" thread-count="2">
+
+	<test name="Test">
+
+		<parameter name="UDID_" value="9032909c" />
+		<parameter name="deviceName_" value="XP8800" />
+		<parameter name="platformVersion_" value="8.1.0" />
+		
+		<parameter name="URL_" value="127.0.0.1:4723/wd/hub" />
+		<parameter name="App_Package_Name_" value="com.sonim.scout" />
+		<parameter name="App_Activity_Name_" value="com.sonim.scout.activities.MainActivity" />
+		
+		<classes>
+			<class name="com.xp8.test.New_SanityTest" >
+			
+			<methods>
+			<!-- <include name=	 "XP8_DeviceSanity_003_Check_Switching_of_camera_FandB"/>
+			<include name=	 "XP8_DeviceSanity_004_Check_Switching_of_camVideo_FandB"/> 
+			<include name=	 "XP8_DeviceSanity_005_LaunchAndCheck_CalculatorOperation"/>
+			<include name=	 "XP8_DeviceSanity_007_CheckClockMenus"/>
+			<include name=	 "XP8_DeviceSanity_008_Internal_StorageSpaceCapacity"/>
+			<include name=	 "XP8_DeviceSanity_009_FM_turnOn_turnOff"/>
+			<include name=	 "XP8_DeviceSanity_0010_FM_TuneToAnyFM_Station"/>
+			<include name=	 "XP8_DeviceSanity_0011_Wifi_TurnOnTurnOffFromQuickStng"/>
+			<include name=	 "XP8_DeviceSanity_0012_Bluetooth_TurnOnTurnOffFromQuickStng"/>
+			<include name=	 "XP8_DeviceSanity_0013_Device_increase_DecreaseBrightness"/>
+			<include name=	 "XP8_DeviceSanity_0014_Open_URL_in_browser"/>
+			<include name=	 "XP8_DeviceSanity_0015_FlashLight_ON_Off"/>
+		  	<include name=	 "XP8_DeviceSanity_0018_checkDate_Time_timezone"/>
+			<include name=	 "XP8_DeviceSanity_0017_checkDeviceInformation_WithSwrealese_and_stng"/> 
+			<include name=	 "XP8_DeviceSanity_0020_Enable_Disable_AirplaneMode_In_QuickStng"/>
+			<include name=	 "XP8_DeviceSanity_0021_checkEngg_Menus"/>  -->
+			<include name=	 "XP8_DeviceSanity_0022_check_EnableDisableDataService"/> 
+			<!-- <include name=	 "XP8_DeviceSanity_0023_Add_Delete_APN"/>  
+			<include name=	 "XP8_DeviceSanity_0024_Browser_Url_usingIPv4"/> 
+			<include name=	 "XP8_DeviceSanity_0025_turnOn_turnOff_dataServices"/>
+			<include name=	 "XP8_DeviceSanity_0027_RejectMT_call_With_SMS"/>
+			<include name=	 "XP8_DeviceSanity_0028_MO_calls_From_CallLog"/>	 
+			<include name=	 "XP8_DeviceSanity_0029_checkAirplane_Enable_Disable"/>  
+			<include name=	 "XP8_DeviceSanity_0030_connect_wifi_to_Secured_network"/>
+			<include name=	 "XP8_DeviceSanity_0031_check_charging_while_connect_to_usb"/>
+			<include name=	 "XP8_DeviceSanity_0032_check_user_able_to_adjust_Brigthness"/> 
+			<include name=	 "XP8_DeviceSanity_0033_check_user_able_to_receiveMT_Call_whileBrowsing"/> -->
+			
+			</methods>
+			</class>
+		</classes>
+
+	</test>
+
+</suite>

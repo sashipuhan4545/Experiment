@@ -1,0 +1,8 @@
+name: Suite
+threadCount: 2
+tests:
+  - name: Test1
+    parameters: { platformVersion_: 8.1.0, URL_: 127.0.0.1:4722/wd/hub, UDID_: 385dc442, App_Package_Name_: com.android.dialer, App_Activity_Name_: com.android.dialer.app.DialtactsActivity, deviceName_: XP8800 }
+    classes:
+      - com.xp8.test.XP8_Call_Settings_Test
+

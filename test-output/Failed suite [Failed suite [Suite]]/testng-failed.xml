@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <test name="Test1(failed)(failed)(failed)">
+    <parameter name="platformVersion_" value="8.1.0"/>
+    <parameter name="URL_" value="127.0.0.1:4722/wd/hub"/>
+    <parameter name="UDID_" value="6717c24f"/>
+    <parameter name="App_Package_Name_" value="com.android.dialer"/>
+    <parameter name="App_Activity_Name_" value="com.android.dialer.app.DialtactsActivity"/>
+    <parameter name="deviceName_" value="XP8800"/>
+    <classes>
+      <class name="com.xp8.StabilityTest.XP8_SMS_StabilityTest_Orio">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="startServer"/>
+          <include name="setupSys"/>
+          <include name="XP8_TC_02_Stability_Validate_Send_MO_IMS_SMS"/>
+          <include name="XP8_TC_04_Stability_Validate_MO_SMS_Maximum_NumberOfCharacters"/>
+          <include name="XP8_TC_05_Stability_Validate_MT_SMS"/>
+          <include name="setUp"/>
+          <include name="XP8_TC_03_Stability_Validate_Send_MO_Non_IMS_SMS"/>
+          <include name="copyFilesToDevice"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.xp8.StabilityTest.XP8_SMS_StabilityTest_Orio -->
+    </classes>
+  </test> <!-- Test1(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

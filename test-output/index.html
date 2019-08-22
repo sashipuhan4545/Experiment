@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-skipped">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Eclipse Workspace\XP8_AutomationProduct\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,  1 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.xp8.test.New_SanityTest" hash-for-method="XP8_DeviceSanity_0022_check_EnableDisableDataService">XP8_DeviceSanity_0022_check_EnableDisableDataService</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.xp8.test.New_SanityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="XP8_DeviceSanity_0022_check_EnableDisableDataService">
+                  </a> <!-- XP8_DeviceSanity_0022_check_EnableDisableDataService -->
+                  <span class="method-name">XP8_DeviceSanity_0022_check_EnableDisableDataService</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 30.72 seconds
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;
+System info: host: &apos;SIDCD702&apos;, ip: &apos;10.15.6.131&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:161)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:170)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:82)
+	at com.xp8.util.CommonConfig.setUp(CommonConfig.java:90)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Eclipse Workspace\XP8_AutomationProduct\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;platformVersion_&quot; value=&quot;8.1.0&quot;/&gt;
+    &lt;parameter name=&quot;URL_&quot; value=&quot;127.0.0.1:4723/wd/hub&quot;/&gt;
+    &lt;parameter name=&quot;UDID_&quot; value=&quot;9032909c&quot;/&gt;
+    &lt;parameter name=&quot;App_Package_Name_&quot; value=&quot;com.sonim.scout&quot;/&gt;
+    &lt;parameter name=&quot;App_Activity_Name_&quot; value=&quot;com.sonim.scout.activities.MainActivity&quot;/&gt;
+    &lt;parameter name=&quot;deviceName_&quot; value=&quot;XP8800&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.xp8.test.New_SanityTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;XP8_DeviceSanity_0022_check_EnableDisableDataService&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.xp8.test.New_SanityTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'XP8_DeviceSanity_0022_check_EnableDisableDataService')
+data.setCell(0, 2, 'com.xp8.test.New_SanityTest')
+data.setCell(0, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">43 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.xp8.test.New_SanityTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">XP8_DeviceSanity_007_CheckClockMenus</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_186_Ensure_SIM_PIN_lock_could_be_enabled_FromSettings</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0030_connect_wifi_to_Secured_network</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0031_check_charging_while_connect_to_usb</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_142_Verify_Gmail_configuration</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_004_Check_Switching_of_camVideo_FandB</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0010_FM_TuneToAnyFM_Station</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0012_Bluetooth_TurnOnTurnOffFromQuickStng</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0020_Enable_Disable_AirplaneMode_In_QuickStng</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0013_Device_increase_DecreaseBrightness</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_102_send_SMS_to_New_number_Saved_Contact</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0033_check_user_able_to_receiveMT_Call_whileBrowsing</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_100_send_Receive_MO_MT_SMS</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_192_user_can_delete_desired_contact_from_PHONE</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0014_Open_URL_in_browser</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_198_Launch_SonimScout_Check_Module</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_191_make_Call_to_any_contact_PHONEBook</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_005_LaunchAndCheck_CalculatorOperation</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0015_FlashLight_ON_Off</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0017_checkDeviceInformation_WithSwrealese_and_stng</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_003_Check_Switching_of_camera_FandB</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0028_MO_calls_From_CallLog</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0011_Wifi_TurnOnTurnOffFromQuickStng</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_009_FM_turnOn_turnOff</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_188_Add_contact_to_SIMcard</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0027_RejectMT_call_With_SMS</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_140_Launch_Playstore_and_verify_app_installation</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_145_Launch_Youtube_and_Stream_video</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_144_Launch_Photos_and_view_ImageVideo</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_143_Launch_Chrome_and_browse_URL</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_101_send_MSISDN_mailId_url_simultanously</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_008_Internal_StorageSpaceCapacity</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0021_checkEngg_Menus</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0025_turnOn_turnOff_dataServices</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_147_Launch_calander_and_check_event_notification</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_141_launch_PlayMsic_and_play_pause_anymusic</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0024_Browser_Url_usingIPv4</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0023_Add_Delete_APN</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_190_Add_new_contact_to_PHONE</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0032_check_user_able_to_adjust_Brigthness</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0018_checkDate_Time_timezone</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_0029_checkAirplane_Enable_Disable</span>
+                <br/>
+                <span class="ignored-method-name">XP8_DeviceSanity_189_user_can_delete_desired_contact_from_SIMcard</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.xp8.test.New_SanityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">deletedTestReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">profileSelectionForQAAndNonQA</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">startServer</span>
+                <span class="method-start">21 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">314 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-suite before">
+                <span class="method-name">numofTestCases</span>
+                <span class="method-start">2030 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp(XP8800, 9032909c, 8.1.0, 127.0.0.1:4723/wd/hub, com.sonim.scout, com.sonim.scout.activities.MainActi...)</span>
+                <span class="method-start">2036 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">XP8_DeviceSanity_0022_check_EnableDisableDataService</span>
+                <span class="method-start">-1566450815318 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

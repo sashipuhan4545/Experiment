@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Default suite]]">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.xp8.test.XP8_Call_Settings_Test">
+        <methods>
+          <include name="XP8_TC_04_Call_Settings_Validate_Quickresponses"/>
+          <include name="copyFilesToDevice"/>
+          <include name="XP8_TC_03_Call_Settings_ValidateSounds_and_VibrationSuboption"/>
+          <include name="startServer"/>
+          <include name="tearDown"/>
+          <include name="beforeSuite"/>
+          <include name="setUp"/>
+          <include name="XP8_TC_01_Call_Settings"/>
+          <include name="XP8_TC_02_Call_Settings_ValidateSettings_and_Displayoption"/>
+          <include name="XP8_TC_05_Call_Settings_Validate_Speeddialsettings"/>
+          <include name="beforeMethod"/>
+          <include name="setupSys"/>
+        </methods>
+      </class> <!-- com.xp8.test.XP8_Call_Settings_Test -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

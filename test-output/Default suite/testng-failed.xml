@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.xp8.test.New_SanityTest">
+        <methods>
+          <include name="XP8_DeviceSanity_007_CheckClockMenus"/>
+          <include name="XP8_DeviceSanity_004_Check_Switching_of_camVideo_FandB"/>
+          <include name="XP8_DeviceSanity_0010_FM_TuneToAnyFM_Station"/>
+          <include name="XP8_DeviceSanity_0012_Bluetooth_TurnOnTurnOffFromQuickStng"/>
+          <include name="numofTestCases"/>
+          <include name="XP8_DeviceSanity_0013_Device_increase_DecreaseBrightness"/>
+          <include name="beforeMethod"/>
+          <include name="XP8_DeviceSanity_0014_Open_URL_in_browser"/>
+          <include name="XP8_DeviceSanity_0016_Send_ReceiveSms_WhnDUTinActiveVoiceCall"/>
+          <include name="profileSelectionForQAAndNonQA"/>
+          <include name="startServer"/>
+          <include name="XP8_DeviceSanity_005_LaunchAndCheck_CalculatorOperation"/>
+          <include name="setUpSys"/>
+          <include name="XP8_DeviceSanity_0015_FlashLight_ON_Off"/>
+          <include name="XP8_DeviceSanity_0017_checkDeviceInformation_WithSwrealese_and_stng"/>
+          <include name="beforeSuite"/>
+          <include name="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB"/>
+          <include name="XP8_DeviceSanity_0011_Wifi_TurnOnTurnOffFromQuickStng"/>
+          <include name="XP8_DeviceSanity_006_LaunchFileMngr_BrowseFiles"/>
+          <include name="afterMethod"/>
+          <include name="XP8_DeviceSanity_009_FM_turnOn_turnOff"/>
+          <include name="deletedTestReports"/>
+          <include name="XP8_DeviceSanity_0019_checkCharging_StatusOfDevice"/>
+          <include name="timer"/>
+          <include name="XP8_DeviceSanity_002_ReceiveMo_VOlteCall_in_Sim1"/>
+          <include name="XP8_DeviceSanity_008_Internal_StorageSpaceCapacity"/>
+          <include name="setUp"/>
+          <include name="XP8_DeviceSanity_001_Make_Mo_VOlteCall_in_Sim1"/>
+          <include name="XP8_DeviceSanity_0018_checkDate_Time_timezone"/>
+          <include name="UpdateProgressIndicator"/>
+        </methods>
+      </class> <!-- com.xp8.test.New_SanityTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

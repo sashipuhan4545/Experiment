@@ -62,7 +62,7 @@ public class New_SanityTest extends New_SanityUtil {
 	public void beforeSuite() throws FileNotFoundException, InterruptedException, IOException, ParseException {
 
 		extent = new ExtentReports("src/test/resources/extentreport/XP8_Device_QA_Sanity_Test_O.html", true); 
-		extent.loadConfig(new File("src/test/resources/StorageFile/ReportsConfig.xml"));
+		//extent.loadConfig(new File("src/test/resources/StorageFile/ReportsConfig.xml"));
 		extent.addSystemInfo("Appium", "1.1").addSystemInfo("Environment", "TEST");
 		fetch_Devices_Details();
 		

@@ -17,15 +17,21 @@
 					<forkMode>never</forkMode>
 					<properties>
 						<property>
-						<!--	<name>listener</name>
-							<value>com.xp5S.util.listeners.ExtentReporterNG</value>-->
+						 <name>suitethreadpoolsize</name>
+                          <value>3</value>
 						</property>
 					</properties>
 					<useFile>true</useFile>
 					<testFailureIgnore>true</testFailureIgnore>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						
+						<file>testng.xml</file>
+                         <file>testng_1.xml</file>
+                          <file>testng_2.xml</file>
+                         
+						
+						
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

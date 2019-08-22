@@ -45,7 +45,7 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 
-public class CommonConfig extends appiumService {
+public class CommonConfig  {
 	
 	//public static AndroidDriver driver;
 	public FileInputStream inputStream;
@@ -87,7 +87,7 @@ public class CommonConfig extends appiumService {
 		
 		//capabilities.setCapability(MobileCapabilityType.APP, file);		
 		 
-		aDriver = new AndroidDriver<AndroidElement>(appiumServerURL, capabilities);
+		aDriver = new AndroidDriver<AndroidElement>(new URL("http://"+URL_+""), capabilities);
 		
 		aDriver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		Thread.sleep(5000);
@@ -122,7 +122,7 @@ public class CommonConfig extends appiumService {
 			
 			//capabilities.setCapability(MobileCapabilityType.APP, file);		
 			 
-			aDriver1 = new AndroidDriver<AndroidElement>(appiumServerURL, capabilities);
+			//aDriver1 = new AndroidDriver<AndroidElement>(appiumServerURL, capabilities);
 			
 			aDriver1.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 			Thread.sleep(5000);

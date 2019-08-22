@@ -29,9 +29,9 @@
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
 
-					<suiteXmlFile>testng.xml
-					
-					</suiteXmlFile>
+						<file>testng.xml</file>
+						<file>testng_1.xml</file>
+						<file>testng_2.xml</file>
 
 
 

@@ -16,10 +16,6 @@
 					<forkMode>never</forkMode>
 					<properties>
 						<property>
-							<name>parallel</name>
-							<value>methods</value>
-						</property>
-						<property>
 							<name>suitethreadpoolsize</name>
 							<value>3</value>
 						</property>

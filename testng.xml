@@ -4,7 +4,7 @@
 
 	<test name="Test">
 
-		<parameter name="UDID_" value="9032909c" />
+		<parameter name="UDID_" value="9362c47a" />
 		<parameter name="deviceName_" value="XP8800" />
 		<parameter name="platformVersion_" value="8.1.0" />
 		

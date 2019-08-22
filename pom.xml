@@ -17,15 +17,15 @@
 					<forkMode>never</forkMode>
 					<properties>
 						<property>
-							<name>listener</name>
-							<value>com.xp5S.util.listeners.ExtentReporterNG</value>
+						<!--	<name>listener</name>
+							<value>com.xp5S.util.listeners.ExtentReporterNG</value>-->
 						</property>
 					</properties>
 					<useFile>true</useFile>
 					<testFailureIgnore>true</testFailureIgnore>
 					<!-- Suite testng xml file to consider for test execution -->
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testsuites/MasterTestsuite.xml</suiteXmlFile>
+						<suiteXmlFile>/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
@@ -34,8 +34,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 

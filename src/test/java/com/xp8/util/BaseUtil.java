@@ -24,7 +24,6 @@ import java.util.UUID;
 
 import org.apache.commons.io.FileUtils;
 import org.json.simple.parser.ParseException;
-import org.junit.Assert;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -741,7 +740,7 @@ public class BaseUtil extends CommonConfig
 		} catch (NoSuchElementException e) {
 			e.printStackTrace();
 			test.log(LogStatus.ERROR, "Disable toggle : No Such Element Found");
-			Assert.fail();
+			org.testng.Assert.fail();
 		}
 	}
 	
@@ -1157,7 +1156,7 @@ public class BaseUtil extends CommonConfig
 	} catch (NoSuchElementException e) {
 		e.printStackTrace();
 //		test.log(LogStatus.ERROR, "No Such Element Found");
-		Assert.fail();
+		org.testng.Assert.fail();
 	}
 	}
 	
@@ -1177,12 +1176,12 @@ public class BaseUtil extends CommonConfig
 		
 		else {
 //			test.log(LogStatus.ERROR, "Toggle button is enabled");
-			Assert.fail();
+			org.testng.Assert.fail();
 		}
 	} catch (NoSuchElementException e) {
 		e.printStackTrace();
 //		test.log(LogStatus.ERROR, "No Such Element Found");
-		Assert.fail();
+		org.testng.Assert.fail();
 	}
 	}
 

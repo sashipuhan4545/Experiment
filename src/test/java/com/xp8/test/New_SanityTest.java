@@ -15,12 +15,12 @@ import java.util.TimerTask;
 import java.util.concurrent.TimeUnit;
 
 import org.json.simple.parser.ParseException;
-import org.junit.BeforeClass;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;

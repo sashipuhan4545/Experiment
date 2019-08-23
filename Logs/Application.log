@@ -19544,3 +19544,35 @@
 2019-08-21 18:12:34,092  INFO [main] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_007_CheckClockMenus 207 - ===================== XP8_DeviceSanity_007_CheckClockMenus ======================
 2019-08-21 18:12:40,548  INFO [main] - com.xp8.test.New_SanityTest.scrollToText 116 - Searched application is found sucessfully : 
 2019-08-22 11:37:13,669  INFO [main] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:15:24,708  INFO [TestNG-test=Test-1] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:15:34,323  INFO [TestNG-test=Test-1] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:17:29,285  INFO [TestNG-test=Test-1] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:17:38,882  INFO [TestNG-test=Test-1] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:27:19,430  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:27:20,553  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:27:30,276  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:27:31,820  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:27:51,207  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.launch_an_app 1066 - Clicked on cameraApp successfully.
+2019-08-22 15:27:51,279  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.clearRecentApps 71 - No Recent Applications Present
+2019-08-22 15:28:03,426  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.clearRecentApps 71 - No Recent Applications Present
+2019-08-22 15:28:22,222  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.clearRecentApps 71 - No Recent Applications Present
+2019-08-22 15:28:23,816  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_004_Check_Switching_of_camVideo_FandB 172 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camVideo_FandB ======================
+2019-08-22 15:31:00,053  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:31:01,120  INFO [TestNG-tests-3] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:31:02,035  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:42:51,972  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:42:53,505  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-22 15:43:01,672  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:43:03,266  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:43:19,676  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.launch_an_app 1066 - Clicked on cameraApp successfully.
+2019-08-22 15:43:24,913  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.clearRecentApps 71 - No Recent Applications Present
+2019-08-22 15:43:37,808  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.clearRecentApps 71 - No Recent Applications Present
+2019-08-22 15:43:48,034  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.clearRecentApps 71 - No Recent Applications Present
+2019-08-22 15:43:49,586  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_004_Check_Switching_of_camVideo_FandB 172 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camVideo_FandB ======================
+2019-08-22 15:43:59,385  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.launch_an_app 991 - HOme PAge
+2019-08-22 15:44:10,399  INFO [TestNG-tests-2] - com.xp8.test.New_SanityTest.launch_an_app 1066 - Clicked on cameraApp successfully.
+2019-08-22 16:12:45,663  INFO [main] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-23 12:15:43,997  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB 155 - ===================== XP8_DeviceSanity_003_Check_Switching_of_camera_FandB ======================
+2019-08-23 12:15:53,737  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.launch_an_app 990 - HOme PAge
+2019-08-23 12:16:05,888  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.launch_an_app 1065 - Clicked on cameraApp successfully.
+2019-08-23 12:16:23,018  INFO [TestNG-tests-1] - com.xp8.test.New_SanityTest.scrollToTextClick 518 - Searched application is found sucessfully : 

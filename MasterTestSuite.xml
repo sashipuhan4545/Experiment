@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suites" parallel="instances" thread-count="2">
+  
+    <suite-files>
+
+	   <suite-file path="testng_1.xml"></suite-file>
+		<suite-file path="testng_2.xml"></suite-file>
+	
+	
+         
+    </suite-files>
+    
+</suite> <!-- Suite -->

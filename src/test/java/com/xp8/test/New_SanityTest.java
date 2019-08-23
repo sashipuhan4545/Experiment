@@ -166,7 +166,7 @@ public class New_SanityTest extends New_SanityUtil {
 		validate_ADB_Logs(fN, "com.android.camera.NEW_PICTURE");
 	}
 	
-	@Test(priority=4,dataProvider="XP8_NewSanityTest", dataProviderClass= DataProviders.class)
+/*	@Test(priority=4,dataProvider="XP8_NewSanityTest", dataProviderClass= DataProviders.class)
 	public void XP8_DeviceSanity_004_Check_Switching_of_camVideo_FandB(Hashtable<String, String> dt) throws InterruptedException, IOException, AWTException {
 
 		APP_LOGS.info("===================== XP8_DeviceSanity_003_Check_Switching_of_camVideo_FandB ======================");
@@ -571,7 +571,7 @@ public class New_SanityTest extends New_SanityUtil {
 
 		APP_LOGS.info("===================== XP8_DeviceSanity_0033_check_user_able_to_receiveMT_Call_whileBrowsing ======================");
 		SoftAssert sa = new SoftAssert();
-		/*customWait(2000);
+		customWait(2000);
 		launch_An_App(dt.get("N_I_Package"),dt.get("N_I_Activity")); // launching network setting
 		clickBtn(New_SanityLocators.Wifi_wifiLnk);
 		turnOnWifi();
@@ -590,7 +590,7 @@ public class New_SanityTest extends New_SanityUtil {
 		recieve_Call_PrimaryDev_O();
 		customWait(5000);
 		end_Call();
-		customWait(3000);*/
+		customWait(3000);
 		launch_an_app("phone");
 		validate_callHistory(sa);
 		sa.assertAll();		
@@ -913,7 +913,7 @@ public class New_SanityTest extends New_SanityUtil {
 		sa.assertAll();
 	}
 	
-	
+	*/
 	
 	
 	

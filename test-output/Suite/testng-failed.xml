@@ -1,28 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="2" name="Test(failed)">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
     <parameter name="platformVersion_" value="8.1.0"/>
-    <parameter name="URL_" value="127.0.0.1:4723/wd/hub"/>
-    <parameter name="UDID_" value="9032909c"/>
+    <parameter name="URL_" value="10.15.6.61:4444/wd/hub"/>
+    <parameter name="UDID_" value="902690cb"/>
     <parameter name="App_Package_Name_" value="com.sonim.scout"/>
     <parameter name="App_Activity_Name_" value="com.sonim.scout.activities.MainActivity"/>
     <parameter name="deviceName_" value="XP8800"/>
     <classes>
       <class name="com.xp8.test.New_SanityTest">
         <methods>
-          <include name="deletedTestReports"/>
-          <include name="startServer"/>
           <include name="numofTestCases"/>
+          <include name="deleteADBLogs"/>
           <include name="timer"/>
           <include name="setUpSys"/>
           <include name="setUp"/>
           <include name="beforeMethod"/>
-          <include name="XP8_DeviceSanity_0022_check_EnableDisableDataService"/>
           <include name="beforeSuite"/>
+          <include name="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB"/>
           <include name="afterMethod"/>
-          <include name="UpdateProgressIndicator"/>
-          <include name="profileSelectionForQAAndNonQA"/>
+        </methods>
+      </class> <!-- com.xp8.test.New_SanityTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test(failed)" parallel="tests">
+    <parameter name="platformVersion_" value="8.1.0"/>
+    <parameter name="URL_" value="10.15.6.61:4444/wd/hub"/>
+    <parameter name="UDID_" value="903e90e3"/>
+    <parameter name="App_Package_Name_" value="com.sonim.scout"/>
+    <parameter name="App_Activity_Name_" value="com.sonim.scout.activities.MainActivity"/>
+    <parameter name="deviceName_" value="XP8800"/>
+    <classes>
+      <class name="com.xp8.test.New_SanityTest">
+        <methods>
+          <include name="numofTestCases"/>
+          <include name="deleteADBLogs"/>
+          <include name="timer"/>
+          <include name="setUpSys"/>
+          <include name="setUp"/>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB"/>
+          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.xp8.test.New_SanityTest -->
     </classes>

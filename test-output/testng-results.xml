@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="43" total="44" passed="0">
+<testng-results skipped="2" failed="0" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="32794" started-at="2019-08-22T05:13:37Z" finished-at="2019-08-22T05:14:10Z">
+  <suite name="Suite" duration-ms="85888" started-at="2019-08-29T10:01:03Z" finished-at="2019-08-29T10:02:29Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="32794" started-at="2019-08-22T05:13:37Z" finished-at="2019-08-22T05:14:10Z">
+    <test name="Test2" duration-ms="85339" started-at="2019-08-29T10:01:03Z" finished-at="2019-08-29T10:02:28Z">
       <class name="com.xp8.test.New_SanityTest">
-        <test-method status="PASS" signature="deletedTestReports()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="deletedTestReports" is-config="true" duration-ms="20" started-at="2019-08-22T05:13:35Z" finished-at="2019-08-22T05:13:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deletedTestReports -->
-        <test-method status="PASS" signature="profileSelectionForQAAndNonQA()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="profileSelectionForQAAndNonQA" is-config="true" duration-ms="1" started-at="2019-08-22T05:13:35Z" finished-at="2019-08-22T05:13:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- profileSelectionForQAAndNonQA -->
-        <test-method status="PASS" signature="startServer()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="startServer" is-config="true" duration-ms="293" started-at="2019-08-22T05:13:35Z" finished-at="2019-08-22T05:13:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startServer -->
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="beforeSuite" is-config="true" duration-ms="1716" started-at="2019-08-22T05:13:35Z" depends-on-methods="com.xp8.util.appiumService.deletedTestReports, com.xp8.util.appiumService.profileSelectionForQAAndNonQA, com.xp8.util.appiumService.startServer" finished-at="2019-08-22T05:13:37Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="beforeSuite" is-config="true" duration-ms="1833" started-at="2019-08-29T15:31:01Z" finished-at="2019-08-29T15:31:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="numofTestCases()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="numofTestCases" is-config="true" duration-ms="1" started-at="2019-08-22T05:13:37Z" depends-on-methods="com.xp8.util.appiumService.deletedTestReports, com.xp8.util.appiumService.profileSelectionForQAAndNonQA, com.xp8.util.appiumService.startServer" finished-at="2019-08-22T05:13:37Z">
+        <test-method status="PASS" signature="numofTestCases()[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="numofTestCases" is-config="true" duration-ms="13" started-at="2019-08-29T15:31:03Z" finished-at="2019-08-29T15:31:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- numofTestCases -->
-        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="setUp" is-config="true" duration-ms="31245" started-at="2019-08-22T05:13:37Z" finished-at="2019-08-22T05:14:08Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="setUp" is-config="true" duration-ms="18933" started-at="2019-08-29T15:31:03Z" finished-at="2019-08-29T15:31:22Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +24,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[9032909c]]>
+                <![CDATA[902690cb]]>
               </value>
             </param>
             <param index="2">
@@ -46,7 +34,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[127.0.0.1:4723/wd/hub]]>
+                <![CDATA[10.15.6.61:4444/wd/hub]]>
               </value>
             </param>
             <param index="4">
@@ -60,151 +48,507 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.72 seconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'SIDCD702', ip: '10.15.6.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
-Driver info: io.appium.java_client.android.AndroidDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.72 seconds
-Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'SIDCD702', ip: '10.15.6.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
-Driver info: io.appium.java_client.android.AndroidDriver
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:161)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:170)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:82)
-at com.xp8.util.CommonConfig.setUp(CommonConfig.java:90)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUpSys()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="setUpSys" is-config="true" duration-ms="0" started-at="2019-08-22T05:14:08Z" depends-on-methods="com.xp8.util.CommonConfig.setUp" finished-at="2019-08-22T05:14:08Z">
+        <test-method status="PASS" signature="setUpSys()[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="setUpSys" is-config="true" duration-ms="2850" started-at="2019-08-29T15:31:22Z" depends-on-methods="com.xp8.util.CommonConfig.setUp" finished-at="2019-08-29T15:31:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSys -->
-        <test-method status="SKIP" signature="timer()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="timer" is-config="true" duration-ms="0" started-at="2019-08-22T05:14:08Z" depends-on-methods="com.xp8.util.CommonConfig.setUp" finished-at="2019-08-22T05:14:08Z">
+        <test-method status="PASS" signature="timer()[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="timer" is-config="true" duration-ms="56" started-at="2019-08-29T15:31:25Z" depends-on-methods="com.xp8.util.CommonConfig.setUp" finished-at="2019-08-29T15:31:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- timer -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-08-22T05:14:10Z" finished-at="2019-08-22T05:14:10Z">
+        <test-method status="PASS" signature="deleteADBLogs()[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="deleteADBLogs" is-config="true" duration-ms="1" started-at="2019-08-29T15:31:25Z" finished-at="2019-08-29T15:31:25Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="XP8_DeviceSanity_0022_check_EnableDisableDataService(java.util.Hashtable)[pri:22, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="XP8_DeviceSanity_0022_check_EnableDisableDataService" duration-ms="0" started-at="2019-08-22T05:14:10Z" data-provider="XP8_NewSanityTest" finished-at="2019-08-22T05:14:10Z">
+        </test-method> <!-- deleteADBLogs -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="beforeMethod" is-config="true" duration-ms="61828" started-at="2019-08-29T15:31:27Z" finished-at="2019-08-29T15:32:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB(java.util.Hashtable) throws java.lang.InterruptedException,java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.72 seconds
+              <![CDATA[Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 36 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'SIDCD702', ip: '10.15.6.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
-Driver info: io.appium.java_client.android.AndroidDriver]]>
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not find a connected Android device. (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 30.72 seconds
+              <![CDATA[org.openqa.selenium.WebDriverException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 36 milliseconds
 Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
-System info: host: 'SIDCD702', ip: '10.15.6.131', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
 Driver info: io.appium.java_client.android.AndroidDriver
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
-at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:144)
-at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:161)
-at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:170)
-at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:82)
-at com.xp8.util.CommonConfig.setUp(CommonConfig.java:90)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.TestRunner.beforeRun(TestRunner.java:529)
-at org.testng.TestRunner.run(TestRunner.java:497)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.changeImplicitlyWaitTimeOut(AppiumElementLocator.java:115)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:133)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:145)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:51)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$fc7d2901.isDisplayed(<generated>)
+	at com.xp8.util.BaseUtil.isElementExist(BaseUtil.java:498)
+	at com.xp8.util.BaseUtil.clearRecentApps(BaseUtil.java:75)
+	at com.xp8.test.New_SanityTest.beforeMethod(New_SanityTest.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.grid.common.exception.GridException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	... 1 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- XP8_DeviceSanity_0022_check_EnableDisableDataService -->
-        <test-method status="SKIP" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-08-22T05:14:10Z" finished-at="2019-08-22T05:14:10Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB(java.util.Hashtable)[pri:3, instance:com.xp8.test.New_SanityTest@33c7e1bb]" name="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB" duration-ms="0" started-at="2019-08-29T15:32:28Z" data-provider="XP8_NewSanityTest" finished-at="2019-08-29T15:32:28Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 36 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.changeImplicitlyWaitTimeOut(AppiumElementLocator.java:115)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:133)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:145)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:51)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$fc7d2901.isDisplayed(<generated>)
+	at com.xp8.util.BaseUtil.isElementExist(BaseUtil.java:498)
+	at com.xp8.util.BaseUtil.clearRecentApps(BaseUtil.java:75)
+	at com.xp8.test.New_SanityTest.beforeMethod(New_SanityTest.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.grid.common.exception.GridException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="UpdateProgressIndicator()[pri:0, instance:com.xp8.test.New_SanityTest@2173f6d9]" name="UpdateProgressIndicator" is-config="true" duration-ms="0" started-at="2019-08-22T05:14:10Z" finished-at="2019-08-22T05:14:10Z">
+        </test-method> <!-- XP8_DeviceSanity_003_Check_Switching_of_camera_FandB -->
+      </class> <!-- com.xp8.test.New_SanityTest -->
+    </test> <!-- Test2 -->
+    <test name="Test" duration-ms="85888" started-at="2019-08-29T10:01:03Z" finished-at="2019-08-29T10:02:29Z">
+      <class name="com.xp8.test.New_SanityTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.xp8.test.New_SanityTest@15d0c81b]" name="setUp" is-config="true" duration-ms="19319" started-at="2019-08-29T15:31:03Z" finished-at="2019-08-29T15:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[XP8800]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[903e90e3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10.15.6.61:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.sonim.scout]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.sonim.scout.activities.MainActivity]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UpdateProgressIndicator -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUpSys()[pri:0, instance:com.xp8.test.New_SanityTest@15d0c81b]" name="setUpSys" is-config="true" duration-ms="2476" started-at="2019-08-29T15:31:22Z" depends-on-methods="com.xp8.util.CommonConfig.setUp" finished-at="2019-08-29T15:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpSys -->
+        <test-method status="PASS" signature="timer()[pri:0, instance:com.xp8.test.New_SanityTest@15d0c81b]" name="timer" is-config="true" duration-ms="57" started-at="2019-08-29T15:31:25Z" depends-on-methods="com.xp8.util.CommonConfig.setUp" finished-at="2019-08-29T15:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timer -->
+        <test-method status="PASS" signature="deleteADBLogs()[pri:0, instance:com.xp8.test.New_SanityTest@15d0c81b]" name="deleteADBLogs" is-config="true" duration-ms="1" started-at="2019-08-29T15:31:25Z" finished-at="2019-08-29T15:31:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteADBLogs -->
+        <test-method status="FAIL" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.xp8.test.New_SanityTest@15d0c81b]" name="beforeMethod" is-config="true" duration-ms="62436" started-at="2019-08-29T15:31:27Z" finished-at="2019-08-29T15:32:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.xp8.test.New_SanityTest.XP8_DeviceSanity_003_Check_Switching_of_camera_FandB(java.util.Hashtable) throws java.lang.InterruptedException,java.io.IOException,java.awt.AWTException]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.changeImplicitlyWaitTimeOut(AppiumElementLocator.java:115)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:133)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:145)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:51)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$fc7d2901.isDisplayed(<generated>)
+	at com.xp8.util.BaseUtil.isElementExist(BaseUtil.java:498)
+	at com.xp8.util.BaseUtil.clearRecentApps(BaseUtil.java:75)
+	at com.xp8.test.New_SanityTest.beforeMethod(New_SanityTest.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.grid.common.exception.GridException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB(java.util.Hashtable)[pri:3, instance:com.xp8.test.New_SanityTest@15d0c81b]" name="XP8_DeviceSanity_003_Check_Switching_of_camera_FandB" duration-ms="0" started-at="2019-08-29T15:32:29Z" data-provider="XP8_NewSanityTest" finished-at="2019-08-29T15:32:29Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+Command duration or timeout: 16 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'sidcluc4', ip: '10.15.6.61', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=903e90e3, platform=LINUX, deviceUDID=903e90e3, appActivity=com.sonim.scout.activities.MainActivity, desired={appActivity=com.sonim.scout.activities.MainActivity, appPackage=com.sonim.scout, server:CONFIG_UUID=614c08bb-5d99-43a3-9a83-147541c1c31d, newCommandTimeout=500, platformVersion=8.1.0, autoGrantPermissions=true, platformName=android, udid=903e90e3, deviceName=XP8800, autoAcceptAlerts=true}, newCommandTimeout=500, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, autoGrantPermissions=true, javascriptEnabled=true, deviceModel=XP8800, platformName=android, udid=903e90e3, deviceManufacturer=Sonimtech, autoAcceptAlerts=true}]
+Session ID: e1b28b3b-c7e3-4d93-8c53-0eb10ab21605
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:865)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.changeImplicitlyWaitTimeOut(AppiumElementLocator.java:115)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:133)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:145)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:51)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$fc7d2901.isDisplayed(<generated>)
+	at com.xp8.util.BaseUtil.isElementExist(BaseUtil.java:498)
+	at com.xp8.util.BaseUtil.clearRecentApps(BaseUtil.java:75)
+	at com.xp8.test.New_SanityTest.beforeMethod(New_SanityTest.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.grid.common.exception.GridException: Session [e1b28b3b-c7e3-4d93-8c53-0eb10ab21605] was terminated due to BROWSER_TIMEOUT
+	at org.openqa.grid.internal.ActiveTestSessions.getExistingSession(ActiveTestSessions.java:115)
+	at org.openqa.grid.internal.DefaultGridRegistry.getExistingSession(DefaultGridRegistry.java:387)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.getSession(RequestHandler.java:241)
+	at org.openqa.grid.web.servlet.handler.RequestHandler.process(RequestHandler.java:123)
+	at org.openqa.grid.web.servlet.DriverServlet.process(DriverServlet.java:85)
+	at org.openqa.grid.web.servlet.DriverServlet.doPost(DriverServlet.java:69)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.seleniumhq.jetty9.servlet.ServletHolder.handle(ServletHolder.java:865)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doHandle(ServletHandler.java:535)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:146)
+	at org.seleniumhq.jetty9.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:257)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:255)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doHandle(ContextHandler.java:1340)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:203)
+	at org.seleniumhq.jetty9.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.seleniumhq.jetty9.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.nextScope(ScopedHandler.java:201)
+	at org.seleniumhq.jetty9.server.handler.ContextHandler.doScope(ContextHandler.java:1242)
+	at org.seleniumhq.jetty9.server.handler.ScopedHandler.handle(ScopedHandler.java:144)
+	at org.seleniumhq.jetty9.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.seleniumhq.jetty9.server.Server.handle(Server.java:503)
+	at org.seleniumhq.jetty9.server.HttpChannel.handle(HttpChannel.java:364)
+	at org.seleniumhq.jetty9.server.HttpConnection.onFillable(HttpConnection.java:260)
+	at org.seleniumhq.jetty9.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:305)
+	at org.seleniumhq.jetty9.io.FillInterest.fillable(FillInterest.java:103)
+	at org.seleniumhq.jetty9.io.ChannelEndPoint$2.run(ChannelEndPoint.java:118)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:333)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:310)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:168)
+	at org.seleniumhq.jetty9.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:126)
+	at org.seleniumhq.jetty9.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:366)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:765)
+	at org.seleniumhq.jetty9.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:683)
+	... 1 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XP8_DeviceSanity_003_Check_Switching_of_camera_FandB -->
       </class> <!-- com.xp8.test.New_SanityTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

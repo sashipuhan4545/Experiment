@@ -4,11 +4,11 @@
 
 	<test name="Test">
 
-		<parameter name="UDID_" value="9362c47a" />
+		<parameter name="UDID_" value="903e90e3" />
 		<parameter name="deviceName_" value="XP8800" />
 		<parameter name="platformVersion_" value="8.1.0" />
 		
-		<parameter name="URL_" value="127.0.0.1:4723/wd/hub" />
+		<parameter name="URL_" value="10.15.6.61:4444/wd/hub" />
 		<parameter name="App_Package_Name_" value="com.sonim.scout" />
 		<parameter name="App_Activity_Name_" value="com.sonim.scout.activities.MainActivity" />
 		
@@ -21,13 +21,13 @@
 	</test>
 	
 	
-	<!-- <test name="Test2">
+	<!--  <test name="Test2">
 
-		<parameter name="UDID_" value="9362c47a" />
+		<parameter name="UDID_" value="902690cb" />
 		<parameter name="deviceName_" value="XP8800" />
 		<parameter name="platformVersion_" value="8.1.0" />
 		
-		<parameter name="URL_" value="127.0.0.1:4722/wd/hub" />
+		<parameter name="URL_" value="10.15.6.61:4444/wd/hub" />
 		<parameter name="App_Package_Name_" value="com.sonim.scout" />
 		<parameter name="App_Activity_Name_" value="com.sonim.scout.activities.MainActivity" />
 		
@@ -38,8 +38,8 @@
 		</classes>
 
 	</test>
-	
-	 -->
+	 
+	  -->
 	
 	
 	<!-- <test name="Test3">

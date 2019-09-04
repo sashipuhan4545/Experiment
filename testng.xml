@@ -8,7 +8,7 @@
 		<parameter name="deviceName_" value="XP8800" />
 		<parameter name="platformVersion_" value="8.1.0" />
 		
-		<parameter name="URL_" value="10.15.6.61:4444/wd/hub" />
+		<parameter name="URL_" value="127.0.0.1:4723/wd/hub" />
 		<parameter name="App_Package_Name_" value="com.sonim.scout" />
 		<parameter name="App_Activity_Name_" value="com.sonim.scout.activities.MainActivity" />
 		
